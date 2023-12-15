@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <style>
+    /* Your CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #f2f2f2;
+      padding: 10px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+  </header>
+  
+  <section>
+    <h2>Short Bio</h2>
+    <p>
+     Hello there, this is Sharvani, and I'm a final-semester MASTER student at the University of North Texas, where I study advanced data analytics. My start date is in about two days. During my undergraduate studies, I completed a data analysis internship. During my internship, I developed intricate queries with subqueries, window functions, and Common Table Expressions. I also maintained databases and pipelines.For the data set that was provided to me, I also built reports and used Tableau to build data visualizations. gave one or two talks. constructed automated Python programs for validation and data cleaning.
+        </p>
+    <img src="https://github.com/Sharvani11640614/portfolio1/blob/main/passport_photo.JPG?raw=true" alt="Professional Picture">
+    <p>Contact Information: 
+        email: Sharvani.ramini@my.unt.edu
+        Ph no: 919-656-0355
+        LinkedIn ID:www.linkedin.com/in/sharvani-ramini-b931a42a1
+    </p>
+  </section>
+
+  <section>
+    <h2>Resume Page</h2>
+    <p>Download my resume:</p>
+    <a href="path/to/resume.pdf" download>Download Resume PDF</a>
+    <!-- Or embed the resume as a webpage -->
+    <!-- <iframe src="path/to/resume.html" width="100%" height="600px"></iframe> -->
+    <h2> Projects</h2>
+        <p>HR Database:
+        Designed HR data base from scratch for a company using MySQL including creating business rules, ERD for
+        data base.
+        Solved various problems related to hiring, performance, termination etc., using complex SQL queries.
+        Text Mining :
+        Performed text mining on e-commerce clothing review data set to gain insights on reviews using Rapid Miner.
+        Enhanced clothing sales prediction for e-commerce website by using K-means clustering, association rules and
+        correlation analysis.</p> </section>
+  </section>
+
+  <section>
+    <h2>Blog Page</h2>
+    <p>This section is reserved for your blog posts related to your expertise. You can include topics like EDA, Linear Regression, Random Forest, etc.</p>
+    <!-- Your blog posts will go here -->
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Sharvani Ramini</p>
+  </footer>
+</body>
+</html>
